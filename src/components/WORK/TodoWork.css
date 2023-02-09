@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Daughter_handwriting';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_03@1.0/Daughter_handwriting.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.todo-list-template {
+  width: 512px;
+  margin: 0 auto; /* 페이지 중앙 정렬 */
+  margin-top: 4rem;
+}
+
+
+
+.form-wrapper {
+  padding: 1rem;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Daughter_handwriting';
+  
+}
+
+.form-wrapper input {
+  font-family: 'Daughter_handwriting';
+  flex: 1; /* 버튼을 뺀 빈 공간을 모두 채워줍니다 */
+  font-size: 2.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  height: 80px ;
+}
+
+.create-button {
+  font-family: 'Daughter_handwriting';
+  font-size: 2.5rem;
+  background: #353535;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.create-button:hover {
+  background: #787878;
+}
+
+.todos-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Daughter_handwriting';
+  font-size : 4rem;
+  margin-top: 30px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.item{
+  height: auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+h1{
+  font-family: 'Daughter_handwriting';
+  margin: 10px;
+  font-size: 2.5rem;
+  flex-grow: 1;
+
+}
+
+.items {
+  font-family: 'Daughter_handwriting';
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px;
+}
+
+button{
+  font-family: 'Daughter_handwriting';
+  background-color: white;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 0;
+  
+}
+
+
+  .inwork{
+    width: 80px;
+    margin: 10px;
+  }
+
+  
