@@ -1,6 +1,6 @@
 <h1>📚 책다봤다</h1>
 <div  align="center">
-  <img width="40%" src="https://user-images.githubusercontent.com/89282099/201780692-70b79718-b6cb-4935-ad74-afb14c9ad0db.svg" alt="roobits">
+  <img width="40%" src="http://izoneproject.s3-website.ap-northeast-2.amazonaws.com/static/media/smallLogo.d1e45f622298abf97ced.png" alt="roobits">
 </div>
 </br>
 <h3 align="center">📓 이미 다 봤다면, 집에서 놀고있다면 이제 바꾸자, 책 다봤다!</h3>
