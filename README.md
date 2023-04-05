@@ -61,7 +61,7 @@
 <img width="2800" alt="아이즈원 유저플로우" src="https://file.notion.so/f/s/4da3c74a-a756-4715-ad2c-d169b90496fc/%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1.jpg?id=f072abee-5544-49c1-939a-b910569da852&table=block&spaceId=82d63a72-8254-4cde-bf1e-b2597b7c099c&expirationTimestamp=1680770044569&signature=Zm8UuICjNyTzFXEDFXd4v9r_qJf5ItIt7Wh58SNl8dg&downloadName=%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1.jpg">
 
 ## 🔧 Skills
-![Roobits Stack (9)](https://user-images.githubusercontent.com/73211553/195057855-ab580645-ecc4-43dd-b423-a1dd09b5bfcc.png)
+![Roobits Stack (9)](https://cdn.discordapp.com/attachments/1083010345280483413/1093228680911781928/2023-04-06_2.40.01.png)
 
 ### Tools
 | Git | Github | Discord |
