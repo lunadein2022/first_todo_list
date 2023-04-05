@@ -10,32 +10,35 @@
 - **프로젝트 기간 :** 2023.03.03 - 2023.04.03
 - **한줄 소개 :** 책 교환 중개 서비스
 - **팀원 :** 조수빈, 안병옥, 임지현, 김미진, 김현지, 박의진, 이혜인
+- **테이블 명세서 & ERD :** [테이블 명세서 & ERD](https://www.notion.so/codestates/ERD-70352b17a92f436185dd95fa69131010?pvs=4)
+- **API명세서 :** [API 명세서](https://documenter.getpostman.com/view/24688948/2s93RUvsfQ)
 - **발표 문서 :** [💁🏻 책다봤다 발표 문서](https://file.notion.so/f/s/df0c3ee0-9f9b-4207-8386-ef025a91e11a/IZONE%E1%84%8E%E1%85%A2%E1%86%A8_%E1%84%83%E1%85%A1_%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1!_%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%86%E1%85%A2%E1%84%82%E1%85%B2%E1%84%8B%E1%85%A5%E1%86%AF_compressed.pdf?id=dd7ae539-1431-4df8-a105-8f01ca89b865&table=block&spaceId=82d63a72-8254-4cde-bf1e-b2597b7c099c&expirationTimestamp=1680763768370&signature=iJBacMBhfi2gXg-RyI05uIUTOpbWUlz-FP-f3Op17lE&downloadName=%5BIZONE%5D%E1%84%8E%E1%85%A2%E1%86%A8+%E1%84%83%E1%85%A1+%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1%21+%E1%84%89%E1%85%A5%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3%E1%84%86%E1%85%A2%E1%84%82%E1%85%B2%E1%84%8B%E1%85%A5%E1%86%AF_compressed.pdf)
 - **배포 링크 :** http://izoneproject.s3-website.ap-northeast-2.amazonaws.com/
 
-## 🛫 Intro
-> 🥲 비대면 시대, 만나기 힘든 우리… 그렇지만 특별한 날에는 모두와 추억을 남기고 싶어! 
-> 동고동락한 사람들에게 메시지를 전할 공간이 없을까?
+## 📖 Intro
+> 이미 다 본 책들, 사놓고 몇 년째 읽지도 않고 공간만 차지하고 있는 저 책들도 누군가에겐 분명 읽고싶은 책일텐데..!  
+> 내가 읽고싶은 책들과 교환할 수 있는 서비스가 있다면?!
 
-- ✍️ 특별한 날을 **D-day로 정하고** 사람들과 함께 **비밀 메시지**를 남기세요.   
-- 💌 **D-day에 공개**되는 메시지들이 추억을 더 특별하게 만들어줍니다.    
-- ❗️보낸 메시지는 **D-day 단 하루만 볼 수 있어요!** D-day가 지나면 룸이 닫히니까 서두르세요.
+- 📗 교환할 책을 **검색**하고 **등록**하세요!
+- 📘 교환 요청을 보내고 내 책과 **교환**하세요!  
+- 📙 정말 편하고 쉽죠?!  
 
 
-## 👨‍👩‍👧‍👦 Team
-| 전광현<br>(FE, 팀장) | 이유진<br>(FE) | 조현화<br>(BE) | 유하경<br>(BE) | 염빛나리<br>(BE) |
-| :---: | :---: | :---: | :---: | :---: |
-| <img alt="전광현" src="https://avatars.githubusercontent.com/u/73211553?v=4" height="100" width="100"> | <img alt="이유진" src="https://avatars.githubusercontent.com/u/89282099?v=4" height="100" width="100"> | <img alt="조현화" src="https://avatars.githubusercontent.com/u/104138036?v=4" height="100" width="100"> | <img alt="유하경" src="https://avatars.githubusercontent.com/u/76886589?v=4" height="100" width="100"> | <img alt="염빛나리" src="https://avatars.githubusercontent.com/u/103120984?v=4" height="100" width="100"> |
-| [@GH](https://github.com/Gwanghyun-Jeon) |    [@nuuco](https://github.com/nuuco) | [@CHOHYUNHWA](https://github.com/CHOHYUNHWA) | [@EstelleYU](https://github.com/EstelleYU) | [@bytenari](https://github.com/bytenari) |
-|<p align="left">- 로그인 등 인증 처리<br/>- 메인 페이지<br/>- 마이룸 페이지<br/>- 메세지 조회 및 검색<br/>- 배포, 도메인 적용<br/> (S3, Route53)</p>|<p align="left">- 디자인 담당 <br/>- 유저 플로우 작성 <br/>- 룸 페이지 <br/>- 룸 종료 페이지 <br/>- 룸 생성 모달 <br/>- 루빗 생성 모달 <br/>- 기타 반응형 작업 </p>|<p align="left">- 회원 CRUD<br/>- 구글 로그인<br/>- 이메일 중복체크<br/>- 유효 e-mail 체크<br/>- ID/비밀번호 찾기<br/>- 토큰을 이용한 인증<br/>- AWS(EC2,RDS)<br/> 배포환경 구축</p>|<p align="left">- 루빗 CRUD 기능 <br/>- D-day 전/후/당일 <br/> 각각 다른 API 구현 <br/>- 관리자 기능 일부<br/>(조회, 삭제) 구현 <br/>- 룸에서 루빗 관련 <br/> 조회 기능 구현 </p>|<p align="left">- 룸 CRUD 기능<br/>- 룸 관련 제한 기능<br/>- 날씨 외부 API</p>|
+## 👨‍👩‍👧‍👦 Team (프로필사진 + 깃허브링크 채워야함)
+| 조수빈<br>(FE, 팀장) | 임지현<br>(FE) | 김현지<br>(FE) | 안병옥<br>(BE, 부팀장) | 김미진<br>(BE) | 박의진<br>(BE) | 이혜인<br>(BE) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img alt="조수빈" src="https://lunadein2022.github.io/assets/img/me.png" height="100" width="100"> | <img alt="임지현" src="https://avatars.githubusercontent.com/u/89282099?v=4" height="100" width="100"> | <img alt="김현지" src="https://avatars.githubusercontent.com/u/104138036?v=4" height="100" width="100"> | <img alt="안병옥" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093090235748982794/image.png" height="100" width="100"> | <img alt="김미진" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093095464947154995/image.png" height="100" width="100"> | <img alt="박의진" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093094998305673276/image.png" height="100" width="100"> | <img alt="이혜인" src="https://cdn.discordapp.com/attachments/1080032497959706723/1093105138014621776/IMG_4129.jpeg" height="100" width="100"> |
+| [@lunadein2022](https://github.com/lunadein2022) |    [@journey0321](https://github.com/journey0321) | [@ASOpaper](https://github.com/ASOpaper) | [@boahn](https://github.com/boahn) | [@BO0461](https://github.com/BO0461) | [@snowqhdl](https://github.com/snowqhdl) | [@zoeee6](https://github.com/zoeee6) |
+|<p align="left">- 메인 페이지<br/>- 마이 페이지<br/>- 메세지 알림<br/>- 메세지 전송, 조회, 삭제<br/>- 내 책장 조회, 삭제<br/>- 책<br/>- S3 배포 적용<br/> (S3, Route53)</p>|<p align="left">- 디자인 담당 <br/>- 유저 플로우 작성 <br/>- 룸 페이지 <br/>- 룸 종료 페이지 <br/>- 룸 생성 모달 <br/>- 루빗 생성 모달 <br/>- 기타 반응형 작업 </p>|<p align="left">- 회원 CRUD<br/>- 구글 로그인<br/>- 이메일 중복체크<br/>- 유효 e-mail 체크<br/>- ID/비밀번호 찾기<br/>- 토큰을 이용한 인증<br/>- AWS(EC2,RDS)<br/> 배포환경 구축</p>|<p align="left">- Kakao API로 책검색 구현 <br/>- Book CRUD <br/> Message readAt 구현 <br/>- AWS(EC2, RDS) 배포 환경 구성<br/>API문서 작성(User, Book, UserComment, BookComment) <br/>- hotfix 커뮤니케이션 </p>|<p align="left">- Book comment crud</p>|<p align="left"></p>|<p align="left">- Spring Boot JPA사용 CRUD구현<br/>- 폴링 방식을 이용한 쪽지 구현<br/>- ostman을 활용한 api 문서 작성<br/>- AWS관리</p>|
 
 
 ### 커뮤니케이션 방식
-- 매일 13:30 부터 17:30 사이에는 온라인 상태를 유지합니다.
-- 매일 13시30분에는 진행된 개발에 대한 간단한 브리핑을 진행합니다. 이슈가 없다면 빠르게 끝냅니다.
+- 매일 10:00 부터 17:30 사이에는 온라인 상태를 유지합니다.
+- 매일 오전 9시 30분, 17시에는 프론트엔드, 백엔드 각각 회의를 진행합니다.
+- 매일 오전 10시, 17에는 진행된 개발에 대한 간단한 전체 브리핑을 진행합니다. 이슈가 없다면 빠르게 끝냅니다.
 - 자료 공유, 회의 등과 같은 모든 소통은 디스코드를 이용하고 급한 경우에만 카카오톡을 이용합니다.
 
-## 📺 Demo
+## 📺 Demo (찍어야함)
 ![anigif](https://user-images.githubusercontent.com/76886589/195051770-6c55f0af-2212-41f6-b014-0325b18c321d.gif?raw=true)
 
 
@@ -43,17 +46,19 @@
 |메인 페이지|로그인 / 회원가입 페이지|
 |:---:|:---:|
 |<img width="100%" alt="첫 화면 gif" src="https://user-images.githubusercontent.com/89282099/201865342-cf84ffc7-b05e-4d0b-82cd-c6acb17b983d.gif"/>|<img width="100%" alt="로그인 gif" src="https://user-images.githubusercontent.com/89282099/201867817-3740ac91-8b82-46c8-848a-5cc325a349f2.gif"/>|
-|**마이 룸 페이지**|**룸 페이지**|
+|**책 검색 페이지**|**책 등록 페이지**|
 |<img width="100%" alt="마이 룸 생성 gif" src="https://user-images.githubusercontent.com/89282099/201868596-423ca88c-9764-4490-8878-29fb5455e123.gif"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201869090-0cb68614-11e7-4aeb-be0f-e563203e58c2.gif"/>|
-|**날씨API 활용한 배경 변화**|**시간대별 하늘 변화**|
+|**책 수정 페이지**|**교환 요청 메세지 보내기**|
 |<img width="100%" src="https://user-images.githubusercontent.com/89282099/201870211-cd6bd086-f794-49c3-bd60-6c851a08b3c9.gif"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201927685-4748db01-df77-4507-9eec-ec1e1a17c915.gif"/>|
-|**루빗(메시지) 생성하기**|**D-day 루빗(메시지) 열람 & 검색**|
+|**메세지 알림 페이지**|**받은 메세지, 보낸메세지 페이지**|
 |<img width="100%" src="https://user-images.githubusercontent.com/89282099/201930288-f914ef2f-5d4e-4e65-825e-78cb14f2102e.gif"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201932385-6f061340-085b-469b-8d39-91f7bd5ef072.gif"/>|
-|**룸 종료 페이지(D-day 이후)**|**유효하지 않은 룸 페이지**|
+|**메세지 답장하기 페이지**|**마이페이지**|
+|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934365-b0c0fee4-4915-4e9d-ad61-f2d030c7f227.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934412-dccf5c1a-ded9-48a3-af9c-5176d465a2a4.png"/>|
+|**내가 남긴 평점 페이지**|**유저 평점 페이지**|
 |<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934365-b0c0fee4-4915-4e9d-ad61-f2d030c7f227.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934412-dccf5c1a-ded9-48a3-af9c-5176d465a2a4.png"/>|
 
 ## ➡️ User flow
-<img width="2800" alt="💎 루비츠 User Flow" src="https://user-images.githubusercontent.com/89282099/201778837-ddddd37c-9c2e-4ce1-b6f2-1968f3654a72.png">
+<img width="2800" alt="아이즈원 유저플로우" src="https://file.notion.so/f/s/4da3c74a-a756-4715-ad2c-d169b90496fc/%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1.jpg?id=f072abee-5544-49c1-939a-b910569da852&table=block&spaceId=82d63a72-8254-4cde-bf1e-b2597b7c099c&expirationTimestamp=1680770044569&signature=Zm8UuICjNyTzFXEDFXd4v9r_qJf5ItIt7Wh58SNl8dg&downloadName=%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1.jpg">
 
 ## 🔧 Skills
 ![Roobits Stack (9)](https://user-images.githubusercontent.com/73211553/195057855-ab580645-ecc4-43dd-b423-a1dd09b5bfcc.png)
@@ -63,21 +68,22 @@
 | :---: | :---: | :---: |
 | <img alt="git logo" src="https://git-scm.com/images/logos/logomark-orange@2x.png" width="65" height="65" > | <img alt="github logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="65" height="65"> | <img alt="Discord logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384e89d1d54d704ece7_3437c10597c1526c3dbd98c737c2bcae.svg" height="65" width="65"> |
 ### Front-end
-| Html | JavaScript | React | Styled-<br>Components | esLint | Prettier |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="75" height="75" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /></div> | <img src="https://styled-components.com/logo.png" alt="styled-components icon" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /></div> |
+| Html | JavaScript | React | CSS Modules | React Router | Axios | esLint | Prettier |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="75" height="75" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /></div> | <img src="https://i.redd.it/3vr72d9jitw21.png" alt="css modules icon" width="65" height="65" /> | <img src="https://www.svgrepo.com/show/354262/react-router.svg" alt="react router" width="65" height="65" /> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Axios_%28computer_library%29_logo.svg/1280px-Axios_%28computer_library%29_logo.svg.png" alt="react router" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /></div> |
 
 ### Back-end
-| Java | mySQL | Rest | AWS | Spring | Spring<br>Boot |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /></div> | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |
+| Java | mySQL | JWT | AWS | Spring | Spring<br>Boot | JPA | Spring<br>Security |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://blog.kakaocdn.net/dn/cqbtEQ/btrZISJO4rM/psTAeZ2SeJr4mw2z80gt00/img.png" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /></div> |<div style="display: flex; align-items: flex-start;"><img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" ></div> |<div style="display: flex; align-items: flex-start;"> <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" ></div> |<div style="display: flex; align-items: flex-start;"> <img alt="JPA logo" src="https://blog.kakaocdn.net/dn/pDeWq/btrEdsKjNw0/ribKZh6VkOzOKack7yHikk/img.png" width="65" height="65" ></div>  |<div style="display: flex; align-items: flex-start;"> <img alt="Spring Security logo" src="https://velog.velcdn.com/images/shawnhansh/post/8c5ab467-22b0-4a1a-97a9-5d6c732687bb/image.png" width="65" height="65" ></div> |
 <br/>
 
 ## 🌲 Git
 ### Branch
-- `main` : 서비스 운영 브랜치입니다.
+- `release` : 서비스 운영 브랜치입니다.
 - `dev` : 개발 환경 브랜치입니다. 개별적으로 작업했던 내용을 합치고 검토합니다.
 - `feat/fe(or be)/...` : 프론트(백엔드) 세부 브랜치입니다.
+- 
 ### Commit & Pull-Request Message
 | "feat: ~ " | 새로운 기능 추가 |
 | :---: | :--- |
