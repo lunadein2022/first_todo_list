@@ -25,11 +25,17 @@
 
 
 ## 👨‍👩‍👧‍👦 Team (프로필사진 + 깃허브링크 채워야함)
-| 조수빈<br>(FE, 팀장) | 임지현<br>(FE) | 김현지<br>(FE) | 안병옥<br>(BE, 부팀장) | 김미진<br>(BE) | 박의진<br>(BE) | 이혜인<br>(BE) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img alt="조수빈" src="https://lunadein2022.github.io/assets/img/me.png" height="100" width="100"> | <img alt="임지현" src="https://avatars.githubusercontent.com/u/89282099?v=4" height="100" width="100"> | <img alt="김현지" src="https://avatars.githubusercontent.com/u/104138036?v=4" height="100" width="100"> | <img alt="안병옥" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093090235748982794/image.png" height="100" width="100"> | <img alt="김미진" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093095464947154995/image.png" height="100" width="100"> | <img alt="박의진" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093094998305673276/image.png" height="100" width="100"> | <img alt="이혜인" src="https://cdn.discordapp.com/attachments/1080032497959706723/1093105138014621776/IMG_4129.jpeg" height="100" width="100"> |
-| [@lunadein2022](https://github.com/lunadein2022) |    [@journey0321](https://github.com/journey0321) | [@ASOpaper](https://github.com/ASOpaper) | [@boahn](https://github.com/boahn) | [@BO0461](https://github.com/BO0461) | [@snowqhdl](https://github.com/snowqhdl) | [@zoeee6](https://github.com/zoeee6) |
-|<p align="left">- 메인 페이지<br/>- 마이 페이지<br/>- 메세지 알림<br/>- 메세지 전송, 조회, 삭제<br/>- 내 책장 조회, 삭제<br/>- 책<br/>- S3 배포 적용<br/> (S3, Route53)</p>|<p align="left">- 디자인 담당 <br/>- 유저 플로우 작성 <br/>- 룸 페이지 <br/>- 룸 종료 페이지 <br/>- 룸 생성 모달 <br/>- 루빗 생성 모달 <br/>- 기타 반응형 작업 </p>|<p align="left">- 회원 CRUD<br/>- 구글 로그인<br/>- 이메일 중복체크<br/>- 유효 e-mail 체크<br/>- ID/비밀번호 찾기<br/>- 토큰을 이용한 인증<br/>- AWS(EC2,RDS)<br/> 배포환경 구축</p>|<p align="left">- Kakao API로 책검색 구현 <br/>- Book CRUD <br/> Message readAt 구현 <br/>- AWS(EC2, RDS) 배포 환경 구성<br/>API문서 작성(User, Book, UserComment, BookComment) <br/>- hotfix 커뮤니케이션 </p>|<p align="left">- Book comment crud</p>|<p align="left"></p>|<p align="left">- Spring Boot JPA사용 CRUD구현<br/>- 폴링 방식을 이용한 쪽지 구현<br/>- ostman을 활용한 api 문서 작성<br/>- AWS관리</p>|
+| 조수빈<br>(FE, 팀장) | 임지현<br>(FE) | 김현지<br>(FE) | 
+| :---: | :---: | :---: |
+| <img alt="조수빈" src="https://lunadein2022.github.io/assets/img/me.png" height="100" width="100"> | <img alt="임지현" src="https://avatars.githubusercontent.com/u/89282099?v=4" height="100" width="100"> | <img alt="김현지" src="https://avatars.githubusercontent.com/u/104138036?v=4" height="100" width="100"> |
+| [@lunadein2022](https://github.com/lunadein2022) |    [@journey0321](https://github.com/journey0321) | [@ASOpaper](https://github.com/ASOpaper) | 
+|<p align="left">- 메인 페이지<br/>- 마이 페이지<br/>- 메세지 알림<br/>- 메세지 전송, 조회, 삭제<br/>- 내 책장 조회, 삭제<br/>- 책<br/>- S3 배포 적용<br/> (S3, Route53)</p>|<p align="left">- 디자인 담당 <br/>- 유저 플로우 작성 <br/>- 룸 페이지 <br/>- 룸 종료 페이지 <br/>- 룸 생성 모달 <br/>- 루빗 생성 모달 <br/>- 기타 반응형 작업 </p>|<p align="left">- 회원 CRUD<br/>- 구글 로그인<br/>- 이메일 중복체크<br/>- 유효 e-mail 체크<br/>- ID/비밀번호 찾기<br/>- 토큰을 이용한 인증<br/>- AWS(EC2,RDS)<br/> 배포환경 구축</p>|
+
+| 안병옥<br>(BE, 부팀장) | 김미진<br>(BE) | 박의진<br>(BE) | 이혜인<br>(BE) |
+| :---: | :---: | :---: | :---: | 
+| <img alt="안병옥" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093090235748982794/image.png" height="100" width="100"> | <img alt="김미진" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093095464947154995/image.png" height="100" width="100"> | <img alt="박의진" src="https://cdn.discordapp.com/attachments/1080032497959706719/1093094998305673276/image.png" height="100" width="100"> | <img alt="이혜인" src="https://cdn.discordapp.com/attachments/1080032497959706723/1093105138014621776/IMG_4129.jpeg" height="100" width="100"> |
+| [@boahn](https://github.com/boahn) | [@BO0461](https://github.com/BO0461) | [@snowqhdl](https://github.com/snowqhdl) | [@zoeee6](https://github.com/zoeee6) |
+|<p align="left">- Kakao API로 책검색 구현 <br/>- Book CRUD <br/> Message readAt 구현 <br/>- AWS(EC2, RDS) 배포 환경 구성<br/>API문서 작성(User, Book, UserComment, BookComment) <br/>- hotfix 커뮤니케이션 </p>|<p align="left">- user crud(sign-up,user withdrawal,user inquiry,user modifying)<br/>-user comment crud<br/>-spring security(Authentication, Authorization, JWT)<br/>-AWS deployment</p>|<p align="left">- user crud(sign-up,user withdrawal,user inquiry,user modifying)<br/>-user comment crud<br/>-spring security(Authentication, Authorization, JWT)<br/>-AWS deployment</p>|<p align="left">- Spring Boot JPA사용 CRUD구현<br/>- 폴링 방식을 이용한 쪽지 구현<br/>- ostman을 활용한 api 문서 작성<br/>- AWS관리</p>|
 
 
 ### 커뮤니케이션 방식
@@ -39,29 +45,29 @@
 - 자료 공유, 회의 등과 같은 모든 소통은 디스코드를 이용하고 급한 경우에만 카카오톡을 이용합니다.
 
 ## 📺 Demo (찍어야함)
-![anigif](https://user-images.githubusercontent.com/76886589/195051770-6c55f0af-2212-41f6-b014-0325b18c321d.gif?raw=true)
+![anigif](https://cdn.discordapp.com/attachments/1083010345280483413/1093428292587114546/5fe2d16b1b4161a1.gif)
 
 
 ## ✨ Pages & Features
 |메인 페이지|로그인 / 회원가입 페이지|
 |:---:|:---:|
-|<img width="100%" alt="첫 화면 gif" src="https://user-images.githubusercontent.com/89282099/201865342-cf84ffc7-b05e-4d0b-82cd-c6acb17b983d.gif"/>|<img width="100%" alt="로그인 gif" src="https://user-images.githubusercontent.com/89282099/201867817-3740ac91-8b82-46c8-848a-5cc325a349f2.gif"/>|
+|<img width="100%" alt="첫 화면 gif" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428325793402910/76c2197651bced00.gif"/>|<img width="100%" alt="로그인 gif" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428326254772274/5440bb34b3ffb78a.gif"/>|
 |**책 검색 페이지**|**책 등록 페이지**|
-|<img width="100%" alt="마이 룸 생성 gif" src="https://user-images.githubusercontent.com/89282099/201868596-423ca88c-9764-4490-8878-29fb5455e123.gif"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201869090-0cb68614-11e7-4aeb-be0f-e563203e58c2.gif"/>|
+|<img width="100%" alt="마이 룸 생성 gif" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428481230127134/0e3e328020e4c1b8.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428481775390740/9e19f1fc80efd286.gif"/>|
 |**책 수정 페이지**|**교환 요청 메세지 보내기**|
-|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201870211-cd6bd086-f794-49c3-bd60-6c851a08b3c9.gif"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201927685-4748db01-df77-4507-9eec-ec1e1a17c915.gif"/>|
+|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428488905707570/389e61f3c4d00633.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428489501294632/f790fc1a942ae45a.gif"/>|
 |**메세지 알림 페이지**|**받은 메세지, 보낸메세지 페이지**|
-|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201930288-f914ef2f-5d4e-4e65-825e-78cb14f2102e.gif"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201932385-6f061340-085b-469b-8d39-91f7bd5ef072.gif"/>|
+|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428538553663538/96c3f04658688b78.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428538201346078/647804cb7c03fb4c.gif"/>|
 |**메세지 답장하기 페이지**|**마이페이지**|
-|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934365-b0c0fee4-4915-4e9d-ad61-f2d030c7f227.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934412-dccf5c1a-ded9-48a3-af9c-5176d465a2a4.png"/>|
-|**내가 남긴 평점 페이지**|**유저 평점 페이지**|
-|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934365-b0c0fee4-4915-4e9d-ad61-f2d030c7f227.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89282099/201934412-dccf5c1a-ded9-48a3-af9c-5176d465a2a4.png"/>|
+|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428565011341342/5a55395b98994d5f.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428564667420672/3dd7e31e976326c2.gif"/>|
+|**내게 남긴 평점 페이지**|**유저 평점 페이지**|
+|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428594648289351/0ca0d6ce24b7fbf3.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428594287591484/089f2cd22cbea850.gif"/>|
 
 ## ➡️ User flow
 <img width="2800" alt="아이즈원 유저플로우" src="https://file.notion.so/f/s/4da3c74a-a756-4715-ad2c-d169b90496fc/%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1.jpg?id=f072abee-5544-49c1-939a-b910569da852&table=block&spaceId=82d63a72-8254-4cde-bf1e-b2597b7c099c&expirationTimestamp=1680770044569&signature=Zm8UuICjNyTzFXEDFXd4v9r_qJf5ItIt7Wh58SNl8dg&downloadName=%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%83%E1%85%A1%E1%84%87%E1%85%AA%E1%86%BB%E1%84%83%E1%85%A1.jpg">
 
 ## 🔧 Skills
-![Roobits Stack (9)](https://cdn.discordapp.com/attachments/1083010345280483413/1093228680911781928/2023-04-06_2.40.01.png)
+![Roobits Stack (9)](https://cdn.discordapp.com/attachments/1080032497959706719/1093420445455364096/2023-04-06_3.22.23.png)
 
 ### Tools
 | Git | Github | Discord |
