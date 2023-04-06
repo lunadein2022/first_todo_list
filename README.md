@@ -52,7 +52,7 @@
 |메인 페이지|로그인 / 회원가입 페이지|
 |:---:|:---:|
 |<img width="100%" alt="첫 화면 gif" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428325793402910/76c2197651bced00.gif"/>|<img width="100%" alt="로그인 gif" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428326254772274/5440bb34b3ffb78a.gif"/>|
-|**책 검색 페이지**|**책 등록 페이지**|
+|**책 검색 페이지, 책 댓글**|**책 등록 페이지**|
 |<img width="100%" alt="마이 룸 생성 gif" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428481230127134/0e3e328020e4c1b8.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428481775390740/9e19f1fc80efd286.gif"/>|
 |**책 수정 페이지**|**교환 요청 메세지 보내기**|
 |<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428488905707570/389e61f3c4d00633.gif"/>|<img width="100%" src="https://cdn.discordapp.com/attachments/1083010345280483413/1093428489501294632/f790fc1a942ae45a.gif"/>|
